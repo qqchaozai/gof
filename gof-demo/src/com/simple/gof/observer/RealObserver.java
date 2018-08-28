@@ -10,6 +10,9 @@ import java.util.Observer;
  *
  */
 public class RealObserver implements Observer {
+    /**
+     * 可用于主动检查主题更新
+     */
     Observable observable;
     Object data;
 
